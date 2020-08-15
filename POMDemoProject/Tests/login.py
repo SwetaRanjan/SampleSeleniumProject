@@ -28,7 +28,7 @@ class LoginTest(unittest.TestCase):
         login = LoginPage(driver)
         homepage = HomePage(driver)
 
-        login.enter_username("Admin")
+        login.enter_username("Admin11")
         login.enter_password("admin123")
         login.click_loginBtn()
 
